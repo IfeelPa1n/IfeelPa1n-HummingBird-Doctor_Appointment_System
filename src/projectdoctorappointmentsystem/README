@@ -1,0 +1,38 @@
+-From Janson!
+IF your wondering the sending of Gmail Sending isn't working
+First go to google.com and type LESS SECURE APPS
+click this "Less secure apps & your Google Account"
+or "myaccount.google.com/lesssecureapps" and turn it off to make it work if not 
+
+
+
+try doing the following:
+
+Check Spam/Junk Folder:
+Sometimes, emails may be classified as spam. Check your spam/junk folder in the recipient's Gmail account.
+
+Correct Email Addresses:
+Double-check that the sender and recipient email addresses are correct. Ensure there are no typos or mistakes in the addresses.
+
+Gmail Security Settings:
+Ensure that your Gmail account allows access from less secure apps. You may need to enable "Allow less secure apps" in your 
+Gmail account settings. Note that this is not recommended for accounts with sensitive information.
+
+App Password (if 2-Step Verification is enabled):
+If you have 2-Step Verification enabled on your Gmail account, generate an 
+"App Password" and use it in your Java application instead of your regular Gmail password.
+
+Check for Exceptions:
+If your Java application encounters an exception while sending the email, 
+it might print the stack trace. Check the console or logs for any error messages that 
+might provide more information about the issue.
+
+SMTP Server Connection:
+Ensure that your computer has a stable internet connection
+and can connect to the Gmail SMTP server on port 587.
+
+Firewall/Antivirus Software:
+Check if your firewall or antivirus software is blocking the connection to the SMTP server. 
+Temporarily disable the firewall or antivirus and try sending the email again.
+
+
